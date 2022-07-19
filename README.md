@@ -1,31 +1,41 @@
-# subsocial-react-example
+# Subsocial React Example
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dappforce/subsocial-react-example)
 
+Subsocial React Example is a Next.js project using our [**JS SDK**](https://docs.subsocial.network/docs/develop) and **mui**. 
 
-In order to correctly build the application, Yarn needs to be used. 
-If you try to use NPM, you may face issues with some NPM packages.
+The project is a simplified implementation of [Subsocial Web App](https://app.subsocial.network)
 
-## Install package
+## Installing 
 
-Run `yarn install`
+Follow the steps below to install the project locally:
+- Clone the repository using `git clone https://github.com/dappforce/subsocial-react-example`
+- Move to project directory `cd subsocial-react-example`
+- Use `npm i` or `yarn` to install all the dependencies
 
-## Development server
+## Running the Project
 
-First, run the development server:
+To run the project locally use `yarn dev` command in the root directory. 
 
-`yarn dev`
+This will start a development build of the NextJS project. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploying
 
-## Build
+You can easily deploy the project to [vercel](https://vercel.com) or similar platforms by integrating CI/CD from your github repository.
 
-Run `yurn run build` to build the project.
+For more details, read [here](https://vercel.com/guides/deploying-nextjs-with-vercel). 
 
-## Storybook development server
+## Important Links
 
-Run `yarn storybook`. Navigate to [http://localhost:6006](http://localhost:6006).
+### Get started with Subsocial SDK
 
-## Build storybook
+- Watch Build Decentralized Twitter-like dapp in 50 mins [here](https://www.youtube.com/watch?v=jeTrpltqAqc)
+- Read Quick Reference Guide [here](https://docs.subsocial.network/docs/develop/quick-reference)
+- Check Detailed How-To Guide [here](https://docs.subsocial.network/docs/develop/how-to-guides/connectToSubsocial)
 
-Run `yarn build-storybook`.
+### Support Channels
+
+Subsocial is project built by __developers for developers__. We love supporting devs building on our SDK. Join our communication channels for all sorts of doubts, discussions, and networking:
+
+- Discord: https://discord.gg/tshXXtqb
+- Telegram: https://t.me/+ZzvLu0ZfkQwxNGQy
